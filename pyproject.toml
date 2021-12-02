@@ -33,6 +33,7 @@ python = "^3.6.9"
 marshmallow = "3.5.1"
 python-dateutil = "^2.8.1"
 aries-cloudagent = { version = "^0.7.1", extras = ["indy"] }
+acapy-plugin-qa = {git = "https://github.com/Indicio-tech/acapy-plugin-qa.git", rev="536affdc3811df10f4162e88f986c30aa28a9af4"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
