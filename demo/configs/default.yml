@@ -1,12 +1,13 @@
 label: Aries Cloud Agent + Toolbox Plugin
 
 # Admin
-admin: [0.0.0.0, 3001]
+admin: [0.0.0.0, 3004]
 admin-insecure-mode: true
 
 # Load toolbox plugin
 plugin:
   - acapy_plugin_toolbox
+  - acapy_plugin_qa
 
 # Transport
 inbound-transport:
